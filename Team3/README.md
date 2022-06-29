@@ -25,3 +25,9 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+When building and deploying as a subfolder to domain, change paths of background-images in dist-main-file as follows:
+url(./assets/img/fotographer/photographer_3.jpg)
+url(./assets/img/fotographer/contact-background1.jpg)
+url(./assets/img/fotographer/hero_testimonials.jpg)
